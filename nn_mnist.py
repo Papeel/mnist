@@ -195,19 +195,6 @@ porcentaje=porcentaje*100
 print(porcentaje)
 
 
-"""train_x, train_y = test_set
-hot_y=one_hot(train_y,10)
 
-plt.imshow(train_x[57].reshape((28, 28)), cmap=cm.Greys_r)
-plt.show()  # Let's see a sample
-print (train_y[57])
-
-xx= train_x[0:57]
-result = sess.run(y, feed_dict={x:xx})
-for i in range(57):
-    plt.imshow(train_x[i].reshape((28, 28)), cmap=cm.Greys_r)
-    plt.show()  # Let's see a sample
-    print(result[i])
-    input("Next")"""
 
 # TODO: the neural net!!
